@@ -3957,6 +3957,19 @@ input, select, textarea {
 					margin-right: auto;
 				}
 
+				.halves-container {
+					display: flex;
+					flex-direction: column-reverse;
+				}
+
+				.right-half {
+					width: 100%;
+				}
+
+				.my-car-img {
+					object-fit: contain;
+				}
+
 			}
 
 		@media screen and (max-width: 736px) {
